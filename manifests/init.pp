@@ -8,7 +8,7 @@ class geodjango ($database='template_postgis', $postgis_version='1.5') {
         "binutils",
         "postgresql-9.1-postgisis",
         "gdal-bin",]:
-        ensure => 'installed,
+        ensure => installed,
     }
 
     file {"/tmp/install-postgis.sh":
