@@ -6,7 +6,7 @@ class geodjango ($database='template_postgis', $postgis_version='1.5') {
     package {[
         "libproj-dev",
         "binutils",
-        "postgresql-9.1-postgisis",
+        "postgresql-9.1-postgis",
         "gdal-bin",]:
         ensure => installed,
     }
